@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Estoque</title>
+    <title>Estoque </title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -77,7 +77,7 @@
         </div>
         @endif
 
-        <img src="{{asset('AdminLTE/dist/img/paraty.jpg')}}" style="width: 70%">
+        <img src="{{asset('AdminLTE/dist/img/cimento.jpg')}}" style="width: 70%">
     </div>
 </body>
 </html>

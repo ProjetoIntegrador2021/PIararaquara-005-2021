@@ -31,7 +31,7 @@
               @if($pecas->foto == null)
               <div class="alert alert-warning" role="alert" title='A peça "{{$pecas->nome}}" com id {{$pecas->id}} está sem foto.'>
                 <img class="card-img-top figure-img img-alert rounded" src="/storage/imagem-fixa/triangle-warning-sign-png.png">
-                A peça "{{$pecas->nome}}" com id {{$pecas->id}} está sem foto.
+                O produto "{{$pecas->nome}}" com id {{$pecas->id}} está sem foto.
               </div>
               @else
               

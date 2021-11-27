@@ -16,7 +16,6 @@ class UsersSeeder extends Seeder
         DB::table('users')->insert([
         	['name' => 'adm', 'email' => 'adm@gmail.com', 'nivel' => '1', 'password' => bcrypt('adm12345')],
         	['name' => 'usuario', 'email' => 'usuario@gmail.com', 'nivel' => '2', 'password' => bcrypt('user12345')],
-            ['name' => 'ProjetoIntegrador', 'email' => 'univespararaquarapi@gmail.com', 'nivel' => '1', 'password' => bcrypt('projeto12345')],
         ]);
     }
 }

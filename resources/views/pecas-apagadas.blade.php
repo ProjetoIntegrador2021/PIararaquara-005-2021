@@ -26,7 +26,7 @@
 
     <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Peças apagadas</h3>
+          <h3 class="card-title">Produtos apagados</h3>
       </div>
       <div class="card-body">
 
@@ -39,7 +39,7 @@
                         <th>Categoria</th>
                         <th>Quantidade</th>
                         <!--<th>Patrimônio</th>-->
-                        <th>Marca</th>
+                        <!--<th>Marca</th>-->
                         <th>Condição</th>
                         <th>Descrição</th>
                         <th>Foto</th>

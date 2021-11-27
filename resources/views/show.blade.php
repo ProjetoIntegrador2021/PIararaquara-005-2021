@@ -45,7 +45,7 @@
                     <th>Categoria</th>
                     <th>Quantidade</th>
                     <!--<th>Patrimônio</th>-->
-                   <!-- <th>Marca</th>-->
+                    <!--<th>Marca</th>-->
                     <th>Condição</th>
                     <th scope="col">Descrição</th>
                     <th>Foto</th>
@@ -92,7 +92,7 @@
     </div>
 </section>
 <br>
-<a class="btn btn-primary" href="{{route('pecas.index')}}">Ver todas as peças</a>
+<a class="btn btn-primary" href="{{route('pecas.index')}}">Ver todos os produtos</a>
 
 <script type="text/javascript">
     //Portugues

@@ -4,7 +4,7 @@
         <div class="modal-content">   
             <form class="form-horizontal" id="formPeca" action="/pecas" method="POST" enctype="multipart/form-data">@csrf
                 <div class="modal-header">
-                    <h5 class="modal-title">Nova Peça</h5>
+                    <h5 class="modal-title">Nova Produto</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -61,7 +61,7 @@
                     <div class="form-group">
                         <label for="nseriePeca" class="control-label">Quantidade</label>
                         <div class="input-group">
-                            <input type="text" class="form-control {{$errors->has('nserie') ? 'is-invalid' : ''}}" name="nserie" placeholder="NSerie da Peça" value="{{old('nserie')}}">
+                            <input type="text" class="form-control {{$errors->has('nserie') ? 'is-invalid' : ''}}" name="nserie" placeholder="Quantidade" value="{{old('nserie')}}">
                             @if($errors->has('nserie'))
                                 <div class="invalid-feedback">{{$errors->first('nserie')}}</div>
                             @endif
@@ -78,7 +78,7 @@
                         </div>
                     </div>-->
 
-                    <div class="form-group">
+                   <!-- <div class="form-group">
                         <label for="marcaPeca" class="control-label">Marca</label>
                         <div class="input-group">
                             <input type="text" class="form-control {{$errors->has('marca') ? 'is-invalid' : ''}}" id="marca" name="marca" placeholder="Marca da Peça" value="{{old('marca')}}">
@@ -86,7 +86,7 @@
                             <div class="invalid-feedback">{{$errors->first('marca')}}</div>
                             @endif
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="form-group">
                         <label for="estadoPeca" class="control-label">Condição</label>

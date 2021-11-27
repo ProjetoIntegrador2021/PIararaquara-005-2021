@@ -16,10 +16,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('pecas.index') }}">Produtos</a>
                 </li>
-                <!--<li class="nav-item">
+               <!-- <li class="nav-item">
                     <a class="nav-link" href="{{ route('equipamentos.index') }}">Equipamentos</a>
-                </li>
-            </ul>-->
+                </li> -->
+            </ul>
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">

@@ -41,7 +41,7 @@
             <div class="form-group">
                 <label for="nseriePeca" class="control-label">Quantidade</label>
                 <div class="input-group">
-                    <input type="text" class="form-control" name="nserie" placeholder="NSerie da Peça" value="{{$peca->nserie}}">
+                    <input type="text" class="form-control" name="nserie" placeholder="Quantidade" value="{{$peca->nserie}}">
                 </div>
             </div>
 

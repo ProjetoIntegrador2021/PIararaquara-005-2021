@@ -11,7 +11,7 @@
                 <div class="modal-body">
                     <input type="hidden" id="id" class="form-control">
                     <div class="form-group">
-                        <label for="certezaApagar" class="control-label">Tem certeza que quer apagar a peça "{{$peca->nome}}" com id "{{$peca->id}}" permanentemente?</label> 
+                        <label for="certezaApagar" class="control-label">Tem certeza que quer apagar o produto "{{$peca->nome}}" com id "{{$peca->id}}" permanentemente?</label> 
                     </div>
                      <form action="{{route('pecas-apagadas.destroy', $peca->id)}}" method="POST">        
                 @method('DELETE')           

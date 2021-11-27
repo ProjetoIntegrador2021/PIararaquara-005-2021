@@ -46,7 +46,7 @@
                <th>Categoria</th>
                <th>Quantidade</th>
                <!-- <th>Patrimônio</th> -->
-               <!--<th>Marca</th>-->
+              <!-- <th>Marca</th>-->
                <th>Condição</th>
                <th>Descrição</th>
                <!-- <th>Foto</th> -->
@@ -110,10 +110,10 @@
     <!-- /.content -->
     @if(Auth::user()->nivel == "1")
 
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novaPecaModal">Adicionar Peça</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novaPecaModal">Adicionar Produto</button>
     
     @include('modais.novaPeca')
-    <a class="btn btn-primary" href="{{route('pecas-apagadas.index')}}">Peças Apagadas</a>
+    <a class="btn btn-primary" href="{{route('pecas-apagadas.index')}}">Produto Apagados</a>
 
    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novaCatModal">Adicionar Categoria</button> -->
 
