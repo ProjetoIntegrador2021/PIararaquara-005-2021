@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
                 
-                <img src="{{asset('AdminLTE/dist/img/paraty.jpg')}}" style="width: 80%; margin-left:70px; margin-top: 6px">
+                <img src="{{asset('AdminLTE/dist/img/cimento.jpg')}}" style="width: 80%; margin-left:70px; margin-top: 6px">
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
