@@ -29,7 +29,7 @@
           <div class="inner">
             <h3> @if(App\Peca::all()->count() >= 0) {{App\Peca::all()->count()}} @endif </h3> <!-- numero de peças em estoque -->
 
-            <p>Produtos em estoque</p>
+            <p>Peças em estoque</p>
           </div>
           <div class="icon" style="top:0%">
            <i class="fa fa-archive" ></i>

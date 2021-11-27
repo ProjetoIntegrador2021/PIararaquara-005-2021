@@ -45,10 +45,10 @@
                     <th>Categoria</th>
                     <th>Quantidade</th>
                     <!--<th>Patrimônio</th>-->
-                    <!--<th>Marca</th>-->
+                   <!-- <th>Marca</th>-->
                     <th>Condição</th>
                     <th scope="col">Descrição</th>
-                    <th>Foto</th>
+                    <!--<th>Foto</th>-->
                     <th>Criado</th>
                     <th>Atualizado</th>
                     <!-- @if($pecas->trashed()) -->
@@ -92,7 +92,7 @@
     </div>
 </section>
 <br>
-<a class="btn btn-primary" href="{{route('pecas.index')}}">Ver todos os produtos</a>
+<a class="btn btn-primary" href="{{route('pecas.index')}}">Ver todas os produtos</a>
 
 <script type="text/javascript">
     //Portugues

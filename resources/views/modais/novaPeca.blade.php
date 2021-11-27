@@ -4,7 +4,7 @@
         <div class="modal-content">   
             <form class="form-horizontal" id="formPeca" action="/pecas" method="POST" enctype="multipart/form-data">@csrf
                 <div class="modal-header">
-                    <h5 class="modal-title">Novo Produto</h5>
+                    <h5 class="modal-title">Nova Produto</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -22,7 +22,7 @@
                     @endif  -->
                     <input type="hidden" id="id" name="id" class="form-control">
                     <div class="form-group">
-                        <label for="nomePeca" class="control-label">Nome da Peça</label>
+                        <label for="nomePeca" class="control-label">Nome da Produto</label>
                         <div class="input-group">
                             <input type="text" class="form-control {{ $errors->has('nome') ? 'is-invalid' : '' }}"  name="nome" placeholder="Nome da Peca" value="{{old('nome')}}">
                         @if($errors->has('nome'))
@@ -78,7 +78,7 @@
                         </div>
                     </div>-->
 
-                  <!--  <div class="form-group">
+                    <!--<div class="form-group">
                         <label for="marcaPeca" class="control-label">Marca</label>
                         <div class="input-group">
                             <input type="text" class="form-control {{$errors->has('marca') ? 'is-invalid' : ''}}" id="marca" name="marca" placeholder="Marca da Peça" value="{{old('marca')}}">

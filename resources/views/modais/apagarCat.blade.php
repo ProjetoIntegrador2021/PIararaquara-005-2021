@@ -12,7 +12,7 @@
                 <div class="modal-body">
                     <input type="hidden" id="id" class="form-control">
                     <div class="form-group">
-                        <label for="certezaApagar" class="control-label">Não é possível apagar a categoria {{$cat->nome}} pois está sendo usada em Produtos.</label> 
+                        <label for="certezaApagar" class="control-label">Não é possível apagar a categoria {{$cat->nome}} pois está sendo usada em Peças.</label> 
                     </div>
                     <div style="text-align: right;">
                         <button class="btn btn-warning" data-dismiss="modal">Ok</button>

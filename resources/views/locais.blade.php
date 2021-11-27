@@ -79,7 +79,7 @@
 
   @if(Auth::user()->nivel == "1")
 
- <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novoLocalModal">Adicionar Local</button>-->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novoLocalModal">Adicionar Local</button>
 
   @include('modais.novoLocal')
 

@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://controleestoquepi.herokuapp.com'),
+    'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY','base64:Hl72uISJOyMrIfA9p01CQ2ceJPiggJ/08dI/XANYKEs='),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
