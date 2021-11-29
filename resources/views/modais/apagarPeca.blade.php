@@ -3,7 +3,7 @@
         <div class="modal-content">
            
                 <div class="modal-header modal-danger">
-                    <h5 class="modal-title-apagar">Apagar Peça</h5>
+                    <h5 class="modal-title-apagar">Apagar Produto</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>

@@ -57,7 +57,7 @@
 
 <div class="col-lg-3 col-6" id="Obsoleto">
   <!-- small box -->
-  <div class="small-box bg-warning" >
+  <!--<div class="small-box bg-warning" >
     <div class="inner">
       <h3>@if(App\Peca::where('estado', 'like', 'obsoleto')->count() >= 0)  {{App\Peca::where('estado', 'like', 'obsoleto')->count()}} @endif </h3>
 
@@ -68,7 +68,7 @@
     </div>
     <a href="{{ route('pecas.index') }}" class="small-box-footer">Mais informações <i class="fa fa-arrow-circle-right"></i></a>
   </div>
-</div>
+</div>-->
 
 <div class="col-lg-3 col-6" id="Quebrado">
   <!-- small box -->

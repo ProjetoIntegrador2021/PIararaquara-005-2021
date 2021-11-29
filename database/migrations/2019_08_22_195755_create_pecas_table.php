@@ -19,7 +19,7 @@ class CreatePecasTable extends Migration
             $table->unsignedBigInteger('categoria_id');
             $table->foreign('categoria_id')->references('id')->on('categorias');
             $table->string('nserie');
-            $table->string('patrimonio', 30);
+            $table->string('patrimonio')->nullable();
             $table->string('descricao');
             $table->string('estado');
             $table->string('marca');

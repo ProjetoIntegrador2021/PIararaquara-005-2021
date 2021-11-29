@@ -16,9 +16,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('pecas.index') }}">Produtos</a>
                 </li>
-               <!-- <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link" href="{{ route('equipamentos.index') }}">Equipamentos</a>
-                </li> -->
+                </li>-->
             </ul>
 
             <!-- Right Side Of Navbar -->

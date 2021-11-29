@@ -77,7 +77,7 @@
         </div>
         @endif
 
-        <img src="{{asset('AdminLTE/dist/img/cimento.jpg')}}" style="width: 70%">
+        <img src="{{asset('AdminLTE/cimento.jpg')}}" style="width: 70%">
     </div>
 </body>
 </html>

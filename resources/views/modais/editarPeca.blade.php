@@ -18,7 +18,7 @@
           <div class="modal-body">
              <input type="hidden" id="id" class="form-control">
              <div class="form-group">
-                <label for="nomePeca" class="control-label">Nome do Produto</label>
+                <label for="nomePeca" class="control-label">Nome da Peça</label>
                 <div class="input-group">
                     <input type="text" class="form-control {{ $errors->has('nome') ? 'is-invalid' : '' }}" name="nome" placeholder="Nome da Peca" value="@if($errors->has('nome')) {{old('nome')}} @else {{$peca->nome}} @endif">
                     @if($errors->has('nome'))
@@ -41,7 +41,7 @@
             <div class="form-group">
                 <label for="nseriePeca" class="control-label">Quantidade</label>
                 <div class="input-group">
-                    <input type="text" class="form-control" name="nserie" placeholder="NSerie da Peça" value="{{$peca->nserie}}">
+                    <input type="text" class="form-control" name="nserie" placeholder="Quantidade" value="{{$peca->nserie}}">
                 </div>
             </div>
 
@@ -52,12 +52,12 @@
                 </div>
             </div>-->
 
-            <!--<div class="form-group">
+          <div class="form-group">
                 <label for="marcaPeca" class="control-label">Marca</label>
                 <div class="input-group">
                     <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca da Peça" value="{{$peca->marca}}">
                 </div>
-            </div>-->
+            </div>
 
             <div class="form-group">
                 <label for="estadoPeca" class="control-label">Condição</label>
@@ -76,7 +76,7 @@
                     <input type="text" class="form-control" id="descricao" name="descricao" placeholder="Descrição da Peça" value="{{$peca->descricao}}">
                 </div>
             </div>
-            <div class="form-group">                       
+            <!--<div class="form-group">                       
 
                 @if(isset($peca->foto))
 
@@ -88,7 +88,7 @@
                 <label for="fotoPeca">Adicionar Imagem</label>
                 <input type="file" class="form-control-file" name="foto" id="fotoPeca" value="{{$peca->foto}}"><br>
 
-            </div>
+            </div>-->
 
                     <!-- <div class="custom-file">
                         <input type="file" class="custom-file-input" name="foto" id="customFile" value="/storage/{{$peca->foto}}">

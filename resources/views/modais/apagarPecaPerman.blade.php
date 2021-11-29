@@ -3,7 +3,7 @@
         <div class="modal-content">
            
                 <div class="modal-header modal-danger">
-                    <h5 class="modal-title-apagar">Apagar Peça PERMANENTEMENTE</h5>
+                    <h5 class="modal-title-apagar">Apagar Produto PERMANENTEMENTE</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -11,7 +11,7 @@
                 <div class="modal-body">
                     <input type="hidden" id="id" class="form-control">
                     <div class="form-group">
-                        <label for="certezaApagar" class="control-label">Tem certeza que quer apagar o produto "{{$peca->nome}}" com id "{{$peca->id}}" permanentemente?</label> 
+                        <label for="certezaApagar" class="control-label">Tem certeza que quer apagar a produto "{{$peca->nome}}" com id "{{$peca->id}}" permanentemente?</label> 
                     </div>
                      <form action="{{route('pecas-apagadas.destroy', $peca->id)}}" method="POST">        
                 @method('DELETE')           

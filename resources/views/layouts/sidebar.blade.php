@@ -2,9 +2,9 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="#" class="brand-link">
-    <img src="{{asset('AdminLTE/dist/img/cimento.jpg')}}" alt="AdminLTE Logo" class="brand-image img elevation-3"
+    <img src="{{asset('AdminLTE/cimento.jpg')}}" alt="AdminLTE Logo" class="brand-image img elevation-3"
     style="opacity: .8">
-    <span class="brand-text font-weight-light">Santos&Motta</span>
+    <span class="brand-text font-weight-light">Estoque</span>
   </a>
 
   <!-- Sidebar -->
@@ -84,13 +84,13 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <!--<li class="nav-item">
+             <!-- <li class="nav-item">
                 <a href="{{ route('equipamentos.index') }}" class="nav-link">
                   <i class="fa fa-desktop"></i>
                   <p>Equipamentos</p>
                 </a>
               </li>-->
-             <!-- <li class="nav-item" >
+              <!--<li class="nav-item" >
                 <a href="{{ route('locais.index') }}" class="nav-link">
                   <i class="fa fa-map-marker"></i>
                   <p>Locais</p>

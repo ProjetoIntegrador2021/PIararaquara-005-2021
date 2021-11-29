@@ -45,10 +45,10 @@
                     <th>Categoria</th>
                     <th>Quantidade</th>
                     <!--<th>Patrimônio</th>-->
-                    <!--<th>Marca</th>-->
+                    <th>Marca</th>
                     <th>Condição</th>
                     <th scope="col">Descrição</th>
-                    <th>Foto</th>
+                    <!--<th>Foto</th>-->
                     <th>Criado</th>
                     <th>Atualizado</th>
                     <!-- @if($pecas->trashed()) -->
@@ -71,12 +71,12 @@
                     <td>{{$pecas->marca}}</td>
                     <td>{{$pecas->estado}}</td>
                     <td>{{$pecas->descricao}}</td>
-                    <td>
-                        @if(isset($pecas->foto))               
+                    <!--<td>-->
+                        <!--@if(isset($pecas->foto))-->               
                         <!-- <img class="card-img-top figure-img img-fluid rounded" src="{{asset('storage') . '/' . $pecas->foto}}"> -->
-                        <img class="card-img-top figure-img img-fluid rounded" src="/storage/{{$pecas->foto}}">
+                        <!--<img class="card-img-top figure-img img-fluid rounded" src="/storage/{{$pecas->foto}}">
                         @endif
-                    </td>
+                    </td>-->
                     <td>{{$pecas->created_at}}</td>
                     <td>{{$pecas->updated_at}}</td>
                     <!-- @if($pecas->trashed()) -->
@@ -92,7 +92,7 @@
     </div>
 </section>
 <br>
-<a class="btn btn-primary" href="{{route('pecas.index')}}">Ver todos os produtos</a>
+<a class="btn btn-primary" href="{{route('pecas.index')}}">Ver todas os produtos</a>
 
 <script type="text/javascript">
     //Portugues

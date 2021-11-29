@@ -83,9 +83,9 @@
 
            
 </div>
-@if(Auth::user()->nivel == "1")
+<!--@if(Auth::user()->nivel == "1")
            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novoEquiModal">Adicionar Equipamento</button>
-     @include('modais.novoEqui')
+     @include('modais.novoEqui')-->
      
 <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novoLocalModal">Adicionar Local</button>
 @include('modais.novoLocal')
