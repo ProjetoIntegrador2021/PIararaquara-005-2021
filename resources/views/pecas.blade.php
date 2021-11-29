@@ -46,7 +46,11 @@
                <th>Categoria</th>
                <th>Quantidade</th>
                <!-- <th>Patrimônio</th> -->
+<<<<<<< HEAD
               <th>Marca</th>
+=======
+                <!--<th>Marca</th>-->
+>>>>>>> 81707ae0fe3c836d362c84a0ae7f3f1859be7651
                <th>Condição</th>
                <th>Descrição</th>
                <!-- <th>Foto</th> -->
@@ -110,10 +114,17 @@
     <!-- /.content -->
     @if(Auth::user()->nivel == "1")
 
+<<<<<<< HEAD
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novaPecaModal">Adicionar Produtos</button>
     
     @include('modais.novaPeca')
     <a class="btn btn-primary" href="{{route('pecas-apagadas.index')}}">Produtos Apagadas</a>
+=======
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novaPecaModal">Adicionar Peça</button>
+    
+    @include('modais.novaPeca')
+    <a class="btn btn-primary" href="{{route('pecas-apagadas.index')}}">Peças Apagadas</a>
+>>>>>>> 81707ae0fe3c836d362c84a0ae7f3f1859be7651
 
    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#novaCatModal">Adicionar Categoria</button> -->
 

@@ -45,7 +45,11 @@
                     <th>Categoria</th>
                     <th>Quantidade</th>
                     <!--<th>Patrimônio</th>-->
+<<<<<<< HEAD
                     <th>Marca</th>
+=======
+                   <!-- <th>Marca</th>-->
+>>>>>>> 81707ae0fe3c836d362c84a0ae7f3f1859be7651
                     <th>Condição</th>
                     <th scope="col">Descrição</th>
                     <!--<th>Foto</th>-->

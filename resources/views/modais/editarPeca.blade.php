@@ -52,7 +52,11 @@
                 </div>
             </div>-->
 
+<<<<<<< HEAD
           <div class="form-group">
+=======
+           <!-- <div class="form-group">
+>>>>>>> 81707ae0fe3c836d362c84a0ae7f3f1859be7651
                 <label for="marcaPeca" class="control-label">Marca</label>
                 <div class="input-group">
                     <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca da Peça" value="{{$peca->marca}}">
